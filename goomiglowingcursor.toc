@@ -1,0 +1,9 @@
+## Interface: 120000
+## Title: Goomi UI - Glowing Cursor
+## Notes: Add a customizable glow effect that follows your mouse cursor
+## Author: Goomi
+## Version: 2.0.0
+## RequiredDeps: GoomiUI
+## SavedVariables: GoomiGlowingCursorDB
+
+goomiglowingcursor.lua
