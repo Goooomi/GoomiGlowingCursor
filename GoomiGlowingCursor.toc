@@ -3,9 +3,10 @@
 ## Notes: Add a customizable glow effect that follows your mouse cursor
 ## Author: Goomi
 ## Version: 1.1.0
-## X-Curse-Project-ID: 123456
+## X-Curse-Project-ID: 1440603
 ## RequiredDeps: GoomiUI
 ## SavedVariables: GoomiGlowingCursorDB
 
 
 goomiglowingcursor.lua
+
