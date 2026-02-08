@@ -150,10 +150,19 @@ end
 function GlowingCursor:OnLoad()
     InitDB()
     
-    -- Handle scale changes
+    -- Handle scale changes and apply visuals after world loads
     local scaleFrame = CreateFrame("Frame")
     scaleFrame:RegisterEvent("UI_SCALE_CHANGED")
-    scaleFrame:SetScript("OnEvent", RefreshScale)
+    scaleFrame:RegisterEvent("PLAYER_ENTERING_WORLD")
+    scaleFrame:SetScript("OnEvent", function(self, event)
+        if event == "UI_SCALE_CHANGED" then
+            RefreshScale()
+        elseif event == "PLAYER_ENTERING_WORLD" then
+            -- Apply visuals after world is fully loaded to ensure atlas and colors work properly
+            ApplyVisuals()
+            self:UnregisterEvent("PLAYER_ENTERING_WORLD")
+        end
+    end)
     
     RefreshScale()
     ApplyVisuals()
