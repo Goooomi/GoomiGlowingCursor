@@ -4,13 +4,14 @@
 ## Author: Goomi
 ## Version: 1.1.0
 ## X-Curse-Project-ID: 1440603
-## Category: GoomiUI
+## Category: Goomi|cFF3AC2D6U|r|cFFEE2D40I|r
 ## RequiredDeps: GoomiUI
 ## IconTexture: Interface\Icons\Inv_gauntlets_22
 ## SavedVariables: GoomiGlowingCursorDB
 
 
 goomiglowingcursor.lua
+
 
 
 
