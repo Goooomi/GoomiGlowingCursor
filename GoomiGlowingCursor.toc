@@ -4,11 +4,12 @@
 ## Author: Goomi
 ## Version: 1.1.0
 ## X-Curse-Project-ID: 1440603
-## X-Category: GoomiUI
+## Category: GoomiUI
 ## RequiredDeps: GoomiUI
 ## SavedVariables: GoomiGlowingCursorDB
 
 
 goomiglowingcursor.lua
+
 
 
